@@ -2,15 +2,22 @@ body {
 	position: relative;
 	margin: 0;
 	background-color: rgb(230, 230, 230);
+	font-family: 'Roboto', sans-serif;
 }
 
 .container {
 	position: absolute;
-	border: 1px solid black;
 	width: 1000px;
-	height: 500px;
+	height: 600px;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+#menu {
+	position: absolute;
+	width: 1000px;
+	height: 38px;
+	background-color: rgb(210, 210, 210);
 }
 
 div {
@@ -22,7 +29,6 @@ button {
 	width: 130px;
 	margin-left: 5px;
 	margin-top: 5px;
-	font-family: 'Roboto', sans-serif;
 }
 
 #timer {
@@ -31,5 +37,24 @@ button {
 	top: 0;
 	margin-right: 40px;
 	font-size: 30px;
-	font-family: 'Roboto', sans-serif;
+}
+
+#displayChart {
+	top: 40px;
+	width: 500px;
+	height: 560px;
+}
+
+#displayCode {
+	top: 40px;
+	right: 0;
+	width: 500px;
+	height: 560px;
+}
+
+.bars {
+	position: absolute;
+	background-color: #9fdae0;
+	text-align: center;
+	bottom: 0;
 }
