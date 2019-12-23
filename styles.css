@@ -12,3 +12,23 @@ body {
 	left: 50%;
 	transform: translate(-50%, 0);
 }
+
+div {
+	position: absolute;
+}
+
+button {
+	font-size: 17px;
+	width: 130px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#timer {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 5px;
+	font-size: 20px;
+	font-family: ;
+}
