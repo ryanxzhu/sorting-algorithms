@@ -29,6 +29,7 @@ button {
 	width: 130px;
 	margin-left: 5px;
 	margin-top: 5px;
+	font-family: 'Roboto', sans-serif;
 }
 
 #timer {
@@ -43,6 +44,7 @@ button {
 	top: 40px;
 	width: 500px;
 	height: 560px;
+	color: white;
 }
 
 #displayCode {
@@ -54,7 +56,39 @@ button {
 
 .bars {
 	position: absolute;
-	background-color: #9fdae0;
+	background-color: #00d6f2;
 	text-align: center;
 	bottom: 0;
+}
+
+#pseudoCode,
+#actualCode {
+	position: absolute;
+	background-color: #1e1e1e;
+	margin: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 440px;
+	height: 200px;
+	top: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#pseudoCode p {
+	color: #6a9955;
+}
+
+#actualCode {
+	top: 220px;
+	color: #d4d4d4;
+}
+
+#nextStepBtn {
+	position: absolute;
+	margin-left: 20px;
+	top: 460px;
+}
+
+h1 {
+	color: #d4d4d4;
 }

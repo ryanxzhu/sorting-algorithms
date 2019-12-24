@@ -7,20 +7,34 @@
     <title>Sorting Algorithms Visualiser</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div id="menu">
-            <button id="reset">Reset</button>
-            <button id="shuffle">Shuffle</button>
-            <button id="quickSort">Quick Sort</button>
-            <button id="mergeSort">Merge Sort</button>
-            <button id="insertionSort">Insertion Sort</button>
-            <button id="selectionSort">Selection Sort</button>
+            <button id="randomizeBtn">Randomize</button>
+            <button id="resetBtn">Reset</button>
+            <button id="quickSortBtn">Quick Sort</button>
+            <button id="mergeSortBtn">Merge Sort</button>
+            <button id="insertionSortBtn">Insertion Sort</button>
+            <button id="selectionSortBtn">Selection Sort</button>
             <div id="timer">00:00</div>
         </div>
         <div id="displayChart"></div>
-        <div id="displayCode"></div>
+        <div id="displayCode">
+            <div id="pseudoCode">
+                <h1>
+                    Pseudocode
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta nisi fuga iste odio dolorum, voluptatibus in delectus maxime dolore perferendis, est tempora quod ipsam iusto rerum incidunt atque quo!</p>
+            </div>
+            <div id="actualCode">
+                <h1>Actual Code</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus omnis in tenetur magni ut commodi neque nulla! Odit possimus culpa quas sapiente veniam ipsam omnis, officiis in nostrum! Eos.</p>
+            </div>
+            <button id="nextStepBtn">Next Step</button>
+
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
