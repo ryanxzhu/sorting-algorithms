@@ -1,7 +1,7 @@
 var barsArray = [];
 var arrayToSort = [];
 var currentArray = [];
-var arrayLength = 10;
+var arrayLength = 25;
 var count = 0;
 
 randomizeArray();
